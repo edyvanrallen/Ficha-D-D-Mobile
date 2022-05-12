@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -66,8 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
             TextButton(
               onPressed: () {},
               child: Container(
-                margin: EdgeInsets.all(5),
-                color: Colors.red,
                 height: 30,
                 width: 100,
                 child: Text(
@@ -81,62 +80,114 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Column(
-                  children: [
-                    TextButton(
-                      onPressed: () {},
-                      child: Container(
-                        margin: EdgeInsets.all(5),
-                        color: Colors.red,
-                        height: 30,
-                        width: 100,
-                        child: Text(
-                          "Bardo",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 20,
-                          ),
-                        ),
-                      ),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Container(
-                        margin: EdgeInsets.all(5),
-                        color: Colors.red,
-                        height: 30,
-                        width: 100,
-                        child: Text(
-                          "Elfo",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 20,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
+                //Local para por imagem do personagem
                 Container(
-                  color: Colors.red,
-                  height: 180,
-                  width: 140,
-                ),
+                    margin: EdgeInsets.only(right: 30),
+                    width: 139,
+                    height: 193.4409942626953,
+                    child: Stack(children: <Widget>[
+                      Positioned(
+                          top: 4.223602294921875,
+                          left: 18.99380111694336,
+                          child: Container(
+                              width: 101.01243591308594,
+                              height: 184.14907836914062,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(12),
+                                  topRight: Radius.circular(12),
+                                  bottomLeft: Radius.circular(12),
+                                  bottomRight: Radius.circular(12),
+                                ),
+                                color: Color.fromRGBO(255, 255, 255, 1),
+                                border: Border.all(
+                                  color: Color.fromRGBO(0, 0, 0, 1),
+                                  width: 1,
+                                ),
+                              ))),
+                      Positioned(
+                          top: 5.6843418860808015e-14,
+                          left: 25.037260055541992,
+                          child: Container(
+                              width: 89.78883361816406,
+                              height: 82.7826156616211,
+                              decoration: BoxDecoration(
+                                color: Color.fromRGBO(196, 196, 196, 0),
+                                border: Border.all(
+                                  color: Color.fromRGBO(0, 0, 0, 1),
+                                  width: 1,
+                                ),
+                                borderRadius: BorderRadius.all(
+                                    Radius.elliptical(
+                                        89.78883361816406, 82.7826156616211)),
+                              ))),
+                      Positioned(
+                          top: 110.65838623046875,
+                          left: 25.037260055541992,
+                          child: Container(
+                              width: 89.78883361816406,
+                              height: 82.7826156616211,
+                              decoration: BoxDecoration(
+                                color: Color.fromRGBO(196, 196, 196, 0),
+                                border: Border.all(
+                                  color: Color.fromRGBO(0, 0, 0, 1),
+                                  width: 1,
+                                ),
+                                borderRadius: BorderRadius.all(
+                                    Radius.elliptical(
+                                        89.78883361816406, 82.7826156616211)),
+                              ))),
+                      Positioned(
+                          top: 7.602495193481445,
+                          left: 0,
+                          child: Container(
+                              width: 139,
+                              height: 178.2360382080078,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(3),
+                                  topRight: Radius.circular(3),
+                                  bottomLeft: Radius.circular(3),
+                                  bottomRight: Radius.circular(3),
+                                ),
+                                color: Color.fromRGBO(255, 255, 255, 1),
+                                border: Border.all(
+                                  color: Color.fromRGBO(0, 0, 0, 1),
+                                  width: 2,
+                                ),
+                              ))),
+                      Positioned(
+                          top: 11,
+                          left: 3.066176414489746,
+                          child: Container(
+                              width: 132.86764526367188,
+                              height: 172,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(12),
+                                  topRight: Radius.circular(12),
+                                  bottomLeft: Radius.circular(12),
+                                  bottomRight: Radius.circular(12),
+                                ),
+                                color: Color.fromRGBO(255, 255, 255, 1),
+                                border: Border.all(
+                                  color: Color.fromRGBO(0, 0, 0, 1),
+                                  width: 1,
+                                ),
+                              ))),
+                    ])),
                 Column(
                   children: [
                     TextButton(
                       onPressed: () {},
                       child: Container(
-                        margin: EdgeInsets.all(5),
-                        color: Colors.red,
                         height: 30,
                         width: 100,
                         child: Text(
-                          "Mago",
-                          textAlign: TextAlign.center,
+                          "Patrulheiro",
+                          textAlign: TextAlign.start,
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -147,13 +198,41 @@ class _MyHomePageState extends State<MyHomePage> {
                     TextButton(
                       onPressed: () {},
                       child: Container(
-                        margin: EdgeInsets.all(5),
-                        color: Colors.red,
                         height: 30,
                         width: 100,
                         child: Text(
-                          "N/B",
-                          textAlign: TextAlign.center,
+                          "Humano",
+                          textAlign: TextAlign.start,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () {},
+                      child: Container(
+                        height: 30,
+                        width: 100,
+                        child: Text(
+                          "Guerreiro",
+                          textAlign: TextAlign.start,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () {},
+                      child: Container(
+                        height: 30,
+                        width: 100,
+                        child: Text(
+                          "N/N",
+                          textAlign: TextAlign.start,
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -174,10 +253,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     Icons.menu_book,
                   ),
                 ),
-                Container(
-                  child: Text(
-                    "Nome do Personagem",
-                    style: TextStyle(fontSize: 20),
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    image: AssetImage('assets/images/name.png'),
                   ),
                 ),
                 IconButton(
@@ -191,110 +270,101 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  margin: EdgeInsets.all(10),
-                  color: Colors.blue,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    height: 70,
+                    image: AssetImage('assets/images/polygon.png'),
+                  ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(10),
-                  color: Colors.blue,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    height: 65,
+                    image: AssetImage('assets/images/square.png'),
+                  ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(10),
-                  color: Colors.blue,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    height: 65,
+                    image: AssetImage('assets/images/square.png'),
+                  ),
                 ),
               ],
             ),
-            Container(
-              color: Colors.green,
-              height: 25,
-              width: 300,
-              child: Text(
-                "100 PH",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 20),
+            TextButton(
+              onPressed: () {},
+              child: Image(
+                height: 30,
+                image: AssetImage('assets/images/hp.png'),
               ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  margin: EdgeInsets.all(10),
-                  color: Colors.purple,
-                  height: 10,
-                  width: 10,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    width: 95,
+                    height: 85,
+                    image: AssetImage('assets/images/hability.png'),
+                  ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(10),
-                  color: Colors.purple,
-                  height: 10,
-                  width: 10,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    width: 95,
+                    height: 85,
+                    image: AssetImage('assets/images/hability.png'),
+                  ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(10),
-                  color: Colors.purple,
-                  height: 10,
-                  width: 10,
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  margin: EdgeInsets.all(32),
-                  color: Colors.grey,
-                  height: 60,
-                  width: 60,
-                ),
-                Container(
-                  margin: EdgeInsets.all(32),
-                  color: Colors.grey,
-                  height: 60,
-                  width: 60,
-                ),
-                Container(
-                  margin: EdgeInsets.all(32),
-                  color: Colors.grey,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    width: 95,
+                    height: 85,
+                    image: AssetImage('assets/images/hability.png'),
+                  ),
                 ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  margin: EdgeInsets.all(32),
-                  color: Colors.grey,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    width: 95,
+                    height: 85,
+                    image: AssetImage('assets/images/hability.png'),
+                  ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(32),
-                  color: Colors.grey,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    width: 95,
+                    height: 85,
+                    image: AssetImage('assets/images/hability.png'),
+                  ),
                 ),
-                Container(
-                  margin: EdgeInsets.all(32),
-                  color: Colors.grey,
-                  height: 60,
-                  width: 60,
+                TextButton(
+                  onPressed: () {},
+                  child: Image(
+                    width: 95,
+                    height: 85,
+                    image: AssetImage('assets/images/hability.png'),
+                  ),
                 ),
               ],
             ),
-            Container(
-              color: Colors.orange,
-              height: 60,
-              width: 270,
-            )
+            TextButton(
+              onPressed: () {},
+              child: Image(
+                image: AssetImage('assets/images/bonus.png'),
+                height: 90,
+              ),
+            ),
           ],
         ),
       ),
