@@ -75,6 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 20,
+                      fontFamily: 'Texgyrebonum',
                     ),
                   ),
                 ),
@@ -201,7 +202,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textAlign: TextAlign.start,
                             style: TextStyle(
                               color: Colors.black,
-                              fontSize: 20,
+                              fontSize: 25,
+                              fontFamily: 'Augusta',
                             ),
                           ),
                         ),
@@ -216,7 +218,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textAlign: TextAlign.start,
                             style: TextStyle(
                               color: Colors.black,
-                              fontSize: 20,
+                              fontSize: 25,
+                              fontFamily: 'Augusta',
                             ),
                           ),
                         ),
@@ -231,7 +234,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textAlign: TextAlign.start,
                             style: TextStyle(
                               color: Colors.black,
-                              fontSize: 20,
+                              fontSize: 25,
+                              fontFamily: 'Augusta',
                             ),
                           ),
                         ),
@@ -246,7 +250,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textAlign: TextAlign.start,
                             style: TextStyle(
                               color: Colors.black,
-                              fontSize: 20,
+                              fontSize: 25,
+                              fontFamily: 'Augusta',
                             ),
                           ),
                         ),
@@ -279,7 +284,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           child: Text(
                             'Leaf',
                             textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 20, color: Colors.black),
+                            style: TextStyle(
+                                fontSize: 30,
+                                color: Colors.black,
+                                fontFamily: 'Augusta'),
                           ),
                         ),
                       ),
@@ -311,7 +319,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '19',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 30, color: Colors.black),
+                                    fontSize: 30,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ),
@@ -331,8 +341,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Text(
                               '19',
                               textAlign: TextAlign.center,
-                              style:
-                                  TextStyle(fontSize: 30, color: Colors.black),
+                              style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.black,
+                                  fontFamily: 'Texgyrebonum'),
                             ),
                           ),
                         ),
@@ -354,7 +366,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '19',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 30, color: Colors.black),
+                                    fontSize: 30,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ),
@@ -378,7 +392,10 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           '100 HP',
                           textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 20, color: Colors.black),
+                          style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.black,
+                              fontFamily: 'Texgyrebonum'),
                         ),
                       ))
                 ],
@@ -405,7 +422,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '+2',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -415,7 +434,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '11',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 25, color: Colors.black),
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -425,7 +446,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'FOR',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 18, color: Colors.black),
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ],
@@ -452,7 +475,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '+2',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -462,7 +487,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '11',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 25, color: Colors.black),
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -472,7 +499,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'DES',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 18, color: Colors.black),
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ],
@@ -499,7 +528,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '+2',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -509,7 +540,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '11',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 25, color: Colors.black),
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -519,7 +552,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'CON',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 18, color: Colors.black),
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ],
@@ -551,7 +586,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '+2',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -561,7 +598,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '11',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 25, color: Colors.black),
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -571,7 +610,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'INT',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 18, color: Colors.black),
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ],
@@ -598,7 +639,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '+2',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -608,7 +651,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '11',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 25, color: Colors.black),
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -618,7 +663,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'SAB',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 18, color: Colors.black),
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ],
@@ -645,7 +692,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '+2',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -655,7 +704,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '11',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 25, color: Colors.black),
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                             Container(
@@ -665,7 +716,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 'CAR',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    fontSize: 18, color: Colors.black),
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                    fontFamily: 'Texgyrebonum'),
                               ),
                             ),
                           ],
@@ -696,8 +749,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Text(
                               '+2',
                               textAlign: TextAlign.center,
-                              style:
-                                  TextStyle(fontSize: 25, color: Colors.black),
+                              style: TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.black,
+                                  fontFamily: 'Texgyrebonum'),
                             ),
                           ),
                           Container(
@@ -707,8 +762,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Text(
                               'BÔNUS DE PROFICIÊNCIA',
                               textAlign: TextAlign.center,
-                              style:
-                                  TextStyle(fontSize: 19, color: Colors.black),
+                              style: TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.black,
+                                  fontFamily: 'Augusta'),
                             ),
                           ),
                         ],
