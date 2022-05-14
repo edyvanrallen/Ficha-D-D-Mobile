@@ -5,7 +5,6 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-![Screenshot_20220514-145532](https://user-images.githubusercontent.com/55499757/168443332-37036dd3-ba2d-4637-aac7-543ec648cc24.jpg)
 
 A few resources to get you started if this is your first Flutter project:
 
