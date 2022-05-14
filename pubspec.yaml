@@ -65,8 +65,9 @@ flutter:
     - assets/images/hp.png
     - assets/images/hability.png
     - assets/images/bonus.png
-    
-
+    - assets/images/Leaf.jpg
+    - assets/images/medieval.png  
+    - assets/images/manuscrito.png  
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

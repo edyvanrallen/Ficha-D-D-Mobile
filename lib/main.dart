@@ -172,6 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           child: Container(
                             width: 132.86764526367188,
                             height: 172,
+                            child: Image.asset('assets/images/Leaf.jpg'),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(
                                 topLeft: Radius.circular(12),
@@ -263,10 +264,16 @@ class _MyHomePageState extends State<MyHomePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(
-                      Icons.menu_book,
+                  Container(
+                    height: 50,
+                    width: 50,
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Image.asset(
+                        'assets/images/manuscrito.png',
+                        height: 25,
+                        width: 25,
+                      ),
                     ),
                   ),
                   Stack(
@@ -293,10 +300,16 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(
-                      Icons.construction,
+                  Container(
+                    height: 50,
+                    width: 50,
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Image.asset(
+                        'assets/images/medieval.png',
+                        height: 25,
+                        width: 25,
+                      ),
                     ),
                   ),
                 ],
@@ -311,19 +324,31 @@ class _MyHomePageState extends State<MyHomePage> {
                         Image.asset('assets/images/polygon.png'),
                         TextButton(
                           onPressed: () {},
-                          child: Container(
-                            height: 50,
-                            child: Padding(
-                              padding: const EdgeInsets.all(7.0),
-                              child: Text(
-                                '19',
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    fontSize: 30,
-                                    color: Colors.black,
-                                    fontFamily: 'Texgyrebonum'),
+                          child: Column(
+                            children: [
+                              Container(
+                                margin: EdgeInsets.only(top: 2),
+                                height: 20,
+                                width: 50,
+                                child: Text(
+                                  'CLASSE DE ARMADURA',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      color: Colors.black, fontSize: 9),
+                                ),
                               ),
-                            ),
+                              Container(
+                                height: 50,
+                                child: Text(
+                                  '19',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      fontSize: 30,
+                                      color: Colors.black,
+                                      fontFamily: 'Texgyrebonum'),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
@@ -334,19 +359,33 @@ class _MyHomePageState extends State<MyHomePage> {
                       Image.asset('assets/images/square.png'),
                       TextButton(
                         onPressed: () {},
-                        child: Container(
-                          height: 50,
-                          child: Padding(
-                            padding: const EdgeInsets.all(9.0),
-                            child: Text(
-                              '19',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                  fontSize: 30,
-                                  color: Colors.black,
-                                  fontFamily: 'Texgyrebonum'),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 10,
+                              width: 55,
+                              child: Text(
+                                'INICIATIVA',
+                                textAlign: TextAlign.center,
+                                style:
+                                    TextStyle(color: Colors.black, fontSize: 9),
+                              ),
                             ),
-                          ),
+                            Container(
+                              height: 50,
+                              child: Padding(
+                                padding: const EdgeInsets.all(9.0),
+                                child: Text(
+                                  '19',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      fontSize: 30,
+                                      color: Colors.black,
+                                      fontFamily: 'Texgyrebonum'),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ],
@@ -358,19 +397,34 @@ class _MyHomePageState extends State<MyHomePage> {
                         Image.asset('assets/images/square.png'),
                         TextButton(
                           onPressed: () {},
-                          child: Container(
-                            height: 50,
-                            child: Padding(
-                              padding: const EdgeInsets.all(9.0),
-                              child: Text(
-                                '19',
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    fontSize: 30,
-                                    color: Colors.black,
-                                    fontFamily: 'Texgyrebonum'),
+                          child: Column(
+                            children: [
+                              Container(
+                                height: 10,
+                                width: 57,
+                                child: Text(
+                                  'DESLOCAMENTO',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      color: Colors.black, fontSize: 9),
+                                ),
                               ),
-                            ),
+                              Container(
+                                height: 50,
+                                width: 55,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(9.0),
+                                  child: Text(
+                                    '19',
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        fontSize: 30,
+                                        color: Colors.black,
+                                        fontFamily: 'Texgyrebonum'),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
